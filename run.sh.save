@@ -1,0 +1,5 @@
+#!/bin/basFILE in "$@"
+do
+	g++ -std=c++11 $FILE -o main
+	./main
+done
